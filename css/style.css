@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import "tailwindcss";
+
+
+
+
+body{
+    height: 400vh;
+}
+
+
+@theme{
+    --color-primary: #5E3BEE;
+    --font-inter: "Inter", sans-serif;
+   
+}
+
+.custom-container{
+    @apply max-w-[1440px] mx-auto;
+}
+
+.bg-clip{
+    background-color: lightgreen;
+    clip-path: polygon(0 20%, 100% 20%, 100% 80%, 0 80%);
+
+
+}
+
+
+
+
+
+
+
